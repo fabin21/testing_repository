@@ -1,3 +1,16 @@
+# Javascript Code
+"""
+document.addEventListener("scroll", function() {
+  var posicaoy = document.scrollTop;
+  if (posicaoy == 0) {
+    navbar.style.backgroundColor = "trasnparent";
+  } else {
+    navbar.style.backgroundColor = "white";
+
+  }
+});
+"""
+# Python Code
 import pandas as pd 
 import pylatex
 import pdflatex
